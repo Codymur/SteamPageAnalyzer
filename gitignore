@@ -1,0 +1,18 @@
+# Environment variables (contains GEMINI_API_KEY — never commit this)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
